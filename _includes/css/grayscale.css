@@ -67,7 +67,8 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-color }};
+    background-color: rgb({{ site.color.primary-color }});
+    color: white;
 }
 
 .navbar-custom .navbar-brand {
@@ -109,6 +110,15 @@ a:focus {
 .navbar-custom .nav li a.active {
     outline: 0;
     background-color: rgba(255,255,255,.3);
+}
+
+.top-nav-collapse {
+    padding: 0;
+    background-color: rgb({{ site.color.primary-color }});
+}
+
+.navbar-custom.top-nav-collapse {
+    border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
 @media(min-width:767px) {
@@ -231,6 +241,11 @@ a:focus {
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+}
+
+.btn-circle.page-scroll {
+    color: pink;
+    border-color: pink;
 }
 
 @-webkit-keyframes pulse {    
