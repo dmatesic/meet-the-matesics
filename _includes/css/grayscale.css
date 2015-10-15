@@ -310,6 +310,15 @@ a:focus {
     }
 }
 
+#about p {
+    font-size: 16px;
+}
+
+#about img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
 #events img {
     max-width: 100%;
     height: auto;
@@ -425,4 +434,8 @@ body {
     ul.nav.navbar-nav {
         font-size: 12px;
     }
+}
+
+#about ul li {
+    text-align: left
 }
